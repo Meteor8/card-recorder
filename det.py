@@ -9,7 +9,7 @@ from utils.torch_utils import select_device
 class Opt:
    def __init__(self):
         # self.source = source
-        self.weights = r"E:\Project001\ai\2005YOLOv5\yolov5\weights\doudizhu\s\best.pt"
+        self.weights = r".\weights\best.pt"
         # self.image = image
 
         self.img_size = 640
